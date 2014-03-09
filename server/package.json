@@ -1,0 +1,24 @@
+{
+  "name": "trakr",
+  "version": "0.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "node_modules/nodemon/bin/nodemon.js ",
+    "test": "node_modules/nodemon/bin/nodemon.js --delay 2 node_modules/mocha/bin/mocha -R spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~3.5.0",
+    "mongoose": "~3.8.8",
+    "q": "~1.0.0",
+    "cors": "~2.2.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1",
+    "nodemon": "~1.0.15",
+    "superagent": "~0.17.0"
+  }
+}

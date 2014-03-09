@@ -1,0 +1,5 @@
+nvm
+node_modules
+*.swp
+data
+data_test
